@@ -495,12 +495,12 @@ void main() {
 // CALLABLE CLASSES
 void main() {
 
-  var person1 = Person();
+  var person1 = Human();
   person1(25, "Peter");
 
 }
 
-class Person {
+class Human {
 
   call(int age, String name) {
     print("The name of the person is $name and is $age years old"); 
